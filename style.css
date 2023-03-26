@@ -1,0 +1,56 @@
+h1{
+	color: #eb5b08;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+body {
+	background-color: #afcacf;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 85vh;
+	width: 100vw;
+}
+
+#container{
+    background-color: rgb(7, 77, 146);
+}
+
+#display{
+    width: 290px;
+    height: 55px;
+    font-size: 32px;
+    text-align: end;
+    font-weight: bold;
+    margin:4px 0px;
+    padding:12px 5px;
+}
+
+.button {
+    width: 72px;
+	height: 72px;
+	font-size: 32px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.mathButtons{
+    color: #FFF;
+    background-color: black;
+}
+
+
+.clearButton {
+	color: #FFF;
+	background-color: #D20000;
+	
+}
+
+.button:hover{
+	background-color: #FFBA75;
+}
